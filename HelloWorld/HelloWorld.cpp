@@ -27,46 +27,7 @@ using namespace std;
 
 int main()
 {
-	/*double a, b, c;
-	char op;
-
-	cout << "Enter a and b: " << endl;
-	cin >> a >> op >> b;
-
-	if (op == '+')
-		c = a + b;
-	else if (op == '-') 
-	{
-		c = a - b;
-	}
-	else if (op == '*')
-		c = a * b;
-	else if (op == '/' &&  b != 0)
-		c = a / b;
-	else if (op == '/' &&  b == 0)
-	{
-		cout << "B mustn't 0!" << endl;
-		return 0;
-	}
-	else if (op == '^' && a != 0)
-		c = pow(a, b);
-
-	cout << "Answer: " << c << endl;
-    */
-
-	// верхняя граница чисел	
-	const int limit = 10000;
-	
-	int f0 = 0;
-	int f1 = 1;
-
-	while (f1 < limit)
-	{
-		cout << f1 << " ";
-		int f2 = f0 + f1;
-		f0 = f1;
-		f1 = f2;
-	}
+	int a = 7;
 
 	return 0;
 }
