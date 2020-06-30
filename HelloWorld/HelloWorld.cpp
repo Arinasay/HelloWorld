@@ -9,6 +9,7 @@ using namespace std;
 
 int main()
 {
+	double s = 6.5;
 	int a, b, c, d, num = 0, den = 0;
 		char op = '+', dr = '/';
 
