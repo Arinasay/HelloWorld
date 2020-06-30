@@ -24,4 +24,5 @@ int main()
 		den = b * d;
 
 	return 0;
+	ausidcasbcdksbdckjbsdkcjb
 }
